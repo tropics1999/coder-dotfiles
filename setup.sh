@@ -10,4 +10,4 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 export KUBECONFIG=~/coder/.kube/config
 export SOPS_AGE_KEY_FILE=~/coder/age.agekey
 brew install gcc
-brew install fluxcd/tap/flux
+brew install fluxcd/tap/flux sops age
